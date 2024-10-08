@@ -1,0 +1,1 @@
+# CIC-Sustainability-GenAI-Hackathon-2024

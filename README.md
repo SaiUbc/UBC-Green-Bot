@@ -12,6 +12,8 @@ UBC's energy usage data is available here: https://energy.ubc.ca/projects/skyspa
 
 ## Demo
 
+![gif demo](./pics/UBC_Green_Bot_DEMO.gif)
+
 # Chat UI
 ![image](./pics/greenbotui.png)
 # Cookies and Cream

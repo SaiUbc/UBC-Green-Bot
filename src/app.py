@@ -4,10 +4,14 @@ import pandas as pd
 import json
 import catppuccin
 from io import BytesIO
+import os
+from dotenv import load_dotenv
 
 import matplotlib.pyplot as plt
 
-API_ENDPOINT = "https://wjsqyfi4n2.execute-api.us-west-2.amazonaws.com/prod/my-function"
+load_dotenv()
+
+API_ENDPOINT = os.getenv("API_ENDPOINT")
 
 def post_to_api(prompt):
     try:

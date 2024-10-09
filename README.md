@@ -14,19 +14,10 @@ UBC's energy usage data is available here: https://energy.ubc.ca/projects/skyspa
 
 ![gif demo](./pics/UBC_Green_Bot_DEMO.gif)
 
-# Chat UI
-![image](./pics/greenbotui.png)
-# Cookies and Cream
-![image](./pics/cookiesandcream.png)
-# Asking about the greenest building
-![image](./pics/greenest_building.png)
-# Asking about the buildings that use the most energy
-![image](./pics/most_energy.png)
-![image](./pics/top5_mostexpensive.png)
-# Which building should be improved
-![image](./pics/demo.png)
-# Light mode! ☀️
-![image](./pics/lightmode.png)
+## Check this out!
+
+![Development Journey](/docs/development_journey.md): I talk about my motivation for this project and my development journey.
+![Prompt Examples](./docs/prompt_examples.md): Check the capabilities and use case examples of this project.
 
 # How to use
 

@@ -8,23 +8,23 @@ We parsed the raw CSV file to a text file with rows of the building name, date, 
 
 UBC's energy usage data is available here: https://energy.ubc.ca/projects/skyspark/
 
-![alt text](arch_diagram.png "Architecture diagram")
+![alt text](./pics/arch_diagram.png "Architecture diagram")
 
 ## Demo
 
 # Chat UI
-![image](greenbotui.png)
+![image](./pics/greenbotui.png)
 # Cookies and Cream
-![image](cookiesandcream.png)
+![image](./pics/cookiesandcream.png)
 # Asking about the greenest building
-![image](greenest_building.png)
+![image](./pics/greenest_building.png)
 # Asking about the buildings that use the most energy
-![image](most_energy.png)
-![image](top5_mostexpensive.png)
+![image](./pics/most_energy.png)
+![image](./pics/top5_mostexpensive.png)
 # Which building should be improved
-![image](demo.png)
+![image](./pics/demo.png)
 # Light mode! ☀️
-![image](lightmode.png)
+![image](./pics/lightmode.png)
 
 # How to use
 

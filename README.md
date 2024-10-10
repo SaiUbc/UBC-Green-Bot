@@ -10,14 +10,40 @@ UBC's energy usage data is available here: https://energy.ubc.ca/projects/skyspa
 
 ![alt text](./pics/arch_diagram.png "Architecture diagram")
 
-## Demo
+# Demo
 
 ![gif demo](./pics/UBC_Green_Bot_DEMO.gif)
 
-## Check this out!
+# Check this out!
 
 ![Development Journey](/docs/development_journey.md): I talk about my motivation for this project and my development journey.
 ![Prompt Examples](./docs/prompt_examples.md): Check the capabilities and use case examples of this project.
+
+# File Structure
+```bash
+├── data/
+│   └── data.txt (actual data fed into AWS S3 BUCKET)
+│   └── test_data.txt
+│   └── DESDES_No_Units.csv
+│   └── DESDESPlants.csv
+│   └── EnergyUsage_No_Units.csv
+│   └── EnergyUsage.csv
+├── docs/
+│   └── development_journey.md 
+│   └── prompt_examples.md 
+├── lamda/
+│   └── lamda_function.py (added lambda function)
+├── pics/
+│   └── DEMO gif (added gif for demo)
+│   └── /.png (contains all the demp pics)
+├── src/
+│   └── app.py (updated to use .env)
+├── .gitignore (added gitignore)
+├── .env (added to .gitignore)
+├── LICENSE (Initial commit)
+├── README.md 
+├── requirements.txt (added requirements with all dependencies)
+```
 
 # How to use
 
@@ -34,3 +60,12 @@ python3 -m streamlit run app.py
 ```
 
 Make sure you are in the correct directory where the `streamlit_app.py` file is located.
+
+# Contributors and Acknowledgement
+
+I'd like to extend my gratitude to the UBC Cloud Innovation Center for organizing this hackathon. It was a valuable learning experience, particularly in exploring the latest technologies, including the practical applications of GenAI and playing around with AWS to get to know it better. 
+
+I also want to thank my teammates for their invaluable contributions to this project:
+- ![@jasonioio](https://github.com/jasonioio)
+- ![@griffw00](https://github.com/griffw00)
+
